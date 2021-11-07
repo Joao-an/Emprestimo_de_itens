@@ -1,0 +1,82 @@
+
+#opcoes{
+    position: absolute;
+    display:flex;
+    margin: 10px;
+}
+#opcoes,a{
+    padding: 5px;
+}
+li {
+    list-style: none;
+}
+body{
+    background-color: white;
+}
+h1{
+    font-family: cursive, sans-serif;
+    font-size: 20px;
+}
+h2{
+    font-family: cursive, sans-serif;
+    font-size: 15px;
+}
+#Menu,input:hover{
+    opacity: 60%;
+    background-color: white;
+}
+#Menu{
+    position: absolute;
+    display: flex;
+    float: top;
+    width: 480px;
+    height: 26px;
+    margin: 0;
+    padding: 5px;
+    top: 10px;
+    right: 50px;
+}
+table {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+table,td,th{
+    margin: 3px;
+    padding: 3px;
+    border: 1px solid black;
+}
+td,th{
+    width: 300px;
+    height: 15px;
+    table-layout: fixed;
+}
+footer{
+    position: absolute;
+    bottom: 5px;
+    left: 41%;
+    right: 35%;
+}
+li{
+    list-style: none;
+    margin: 5px;
+}
+input{
+    background: lightcyan;
+    border: 1px solid dodgerblue;
+}
+input:hover{
+    opacity: 85%;
+}
+h2,th,h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+tbody,thead,tr,td,th,table{
+    border: 1px dodgerblue solid;
+}
+hgroup{
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+

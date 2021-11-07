@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+</head>
+<link rel="stylesheet" href="style/index.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Qahiri&display=swap" rel="stylesheet">
+<style>
+    li{
+        list-style: none;
+        margin: 5px;
+    }
+    .cadastro{
+        display: flex;
+        position: center;
+        margin: 20% 40%;
+        border: 1px solid dodgerblue;
+    }
+    input{
+        background: lightcyan;
+        border: 1px solid dodgerblue;
+        padding: 2px;
+    }
+    input:hover{
+        opacity: 80%;
+    }
+    date{
+        margin: 5px;
+        color: gray;
+        border: 1px solid dodgerblue;
+        padding: 1px 3px 1px ;
+        background: lightcyan;
+    }
+    .cadastro{
+        background: white;
+    }
+    h1{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+    }
+    label{
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px lightgray;
+        padding: 5px;
+    }
+</style>
+<body>
+<div class="container">
+    <div class="cadastro">
+        <form>
+                <ul>
+                    <li><h1>Bem vindo ao Empréstimo do Jhony</h1></li>
+                    <li><input placeholder="Nome de Usúario" name="user" type="text" size="21" maxlength="50"></li>
+                    <li><input placeholder="e-mail" name="email" type="email" size="21" maxlength="50"></li>
+                    <li><input placeholder="Data de Nascimento" type="text" onfocus="(this.type='date')" onfocusout="(this.type='text')" id="data" size="21"></li>
+                    <li><input placeholder="Senha" name="senha" type="password" size="21" maxlength="10"></li>
+                    <li><a href="login.html"><input id="cadastro" value="Cadastrar" type="button"></a><a href="login.html"><input id="cancelar" value="Cancelar" type="button"></a></li>
+                </ul>
+        </form>
+    </div>
+</div>
+<footer>
+    <p>Criado por João André Bueno - 2021</p>
+</footer>
+</body>
+</html>
